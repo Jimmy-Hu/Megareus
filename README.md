@@ -16,13 +16,15 @@ There are several kinds of algorithms included in this collection:
      
      **Assassin's Creed Odyssey**
      
-     | Name of Algorithm / model |    Results    |
-     | :-----------------------: | :-----------: |
-     | 
-     | MTCNN Face Detection      | Title       |
-     | Paragraph   | Text        |
+     Source:
      
-  2. 
+     
+     |             Name of Algorithm / Model                 |    Results    |
+     | :---------------------------------------------------: | :-----------: |
+     | Face Detection and Tracking Using the KLT Algorithm   |               |
+     | MTCNN Face Detection                                  |               |
+     
+  2. [FDDB: Face Detection Data Set and Benchmark](http://vis-www.cs.umass.edu/fddb/)
   
 - No-Reference Image Quality Assessment (NR-IQA)
 
