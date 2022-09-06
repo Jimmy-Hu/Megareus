@@ -14,7 +14,7 @@ There are several kinds of algorithms included in this collection:
   
   1. Gaming Scenario
      
-     **Assassin's Creed Odyssey**
+     **[Assassin's Creed Odyssey](https://en.wikipedia.org/wiki/Assassin's_Creed_Odyssey)**
      
      Source:
      
