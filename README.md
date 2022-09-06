@@ -43,6 +43,8 @@ There are several kinds of algorithms included in this collection:
 
 - Human Face Detection
   
-  1. [[Matlab File Exchange] MTCNN Face Detection](https://www.mathworks.com/matlabcentral/fileexchange/73947-mtcnn-face-detection)
+  1. [[Matlab File Exchange] Face Detection and Tracking Using the KLT Algorithm](https://www.mathworks.com/help/vision/ug/face-detection-and-tracking-using-the-klt-algorithm.html)
+     
+  2. [[Matlab File Exchange] MTCNN Face Detection](https://www.mathworks.com/matlabcentral/fileexchange/73947-mtcnn-face-detection)
   
   
