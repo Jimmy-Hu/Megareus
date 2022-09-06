@@ -19,6 +19,7 @@ There are several kinds of algorithms included in this collection:
      Source:
      
      
+     
      |             Name of Algorithm / Model                 |    Results    |
      | :---------------------------------------------------: | :-----------: |
      | Face Detection and Tracking Using the KLT Algorithm   |               |
