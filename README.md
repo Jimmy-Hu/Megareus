@@ -16,8 +16,18 @@ There are several kinds of algorithms included in this collection:
      
      **Assassin's Creed Odyssey**
      
+     | Name of Algorithm / model |    Results    |
+     | :-----------------------: | :-----------: |
+     | 
+     | MTCNN Face Detection      | Title       |
+     | Paragraph   | Text        |
+     
   2. 
   
+- No-Reference Image Quality Assessment (NR-IQA)
+
+
+
 - Object Detection
 
 
