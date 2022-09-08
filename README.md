@@ -24,10 +24,10 @@ There are several kinds of algorithms included in this collection:
      
      ![AssassinsCreedOdysseySourcePreview](https://github.com/Jimmy-Hu/Megareus/blob/main/resources/gif/Assassin_Creed_Odyssey%202022-08-24%2018-38-46.gif)
      
-     |             Name of Algorithm / Model                 |    Results    |
-     | :---------------------------------------------------: | :-----------: |
-     | Face Detection and Tracking Using the KLT Algorithm   |               |
-     | MTCNN Face Detection                                  |               |
+     |             Name of Algorithm / Model                 |                        Results                  |
+     | :---------------------------------------------------: | :---------------------------------------------: |
+     | Face Detection and Tracking Using the KLT Algorithm   |                                                 |
+     | MTCNN Face Detection                                  |![AssassinsCreedOdysseySourcePreview](resources/gif/Assassin_Creed_Odyssey 2022-08-24 18-38-46_MTCNN_FaceDetection_0.45_300Frame.gif)|
      
   2. [FDDB: Face Detection Data Set and Benchmark](http://vis-www.cs.umass.edu/fddb/)
   
