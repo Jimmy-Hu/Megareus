@@ -20,6 +20,10 @@ There are several kinds of algorithms included in this collection:
      
      https://youtu.be/Y_NyLp5ztic
      
+     Previev:
+     
+     ![AssassinsCreedOdysseySourcePreview](https://github.com/Jimmy-Hu/Megareus/blob/main/resources/gif/Assassin_Creed_Odyssey%202022-08-24%2018-38-46.gif)
+     
      |             Name of Algorithm / Model                 |    Results    |
      | :---------------------------------------------------: | :-----------: |
      | Face Detection and Tracking Using the KLT Algorithm   |               |
