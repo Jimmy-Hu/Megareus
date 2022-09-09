@@ -32,8 +32,8 @@ There are several kinds of algorithms included in this collection:
   2. [FDDB: Face Detection Data Set and Benchmark](http://vis-www.cs.umass.edu/fddb/)
   
 - No-Reference Image Quality Assessment (NR-IQA)
-
-
+  
+  1. Gaming Scenario
 
 - Object Detection
 
