@@ -34,7 +34,10 @@ There are several kinds of algorithms included in this collection:
 - No-Reference Image Quality Assessment (NR-IQA)
   
   1. Gaming Scenario
+    
+     **[Assassin's Creed Odyssey](https://en.wikipedia.org/wiki/Assassin's_Creed_Odyssey)**
 
+     
 - Object Detection
 
 
