@@ -57,3 +57,7 @@ There are several kinds of algorithms included in this collection:
 - Point Cloud Quality Assessment
   
   1. Yipeng Liu, Qi Yang, Yiling Xu, Le Yang, "Point Cloud Quality Assessment: Dataset Construction and Learning-based No-Reference Metric", ACM Transactions on Multimedia Computing Communications and Applications, 2022."
+    
+    [Github repo: ResSCNN](https://github.com/lyp22/ResSCNN)
+    
+  2. 
