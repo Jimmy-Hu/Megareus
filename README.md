@@ -1,6 +1,6 @@
 # Megareus
 
-> Under Construction Project
+> Under Construction Project, Open to issue / PR submission
 > 
 
 Megareus: A collection of experimental results of various image / video / point cloud processing algorithms
