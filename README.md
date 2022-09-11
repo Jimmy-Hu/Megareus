@@ -54,4 +54,6 @@ There are several kinds of algorithms included in this collection:
      
   2. [[Matlab File Exchange] MTCNN Face Detection](https://www.mathworks.com/matlabcentral/fileexchange/73947-mtcnn-face-detection)
   
+- Point Cloud Quality Assessment
   
+  1. Yipeng Liu, Qi Yang, Yiling Xu, Le Yang, "Point Cloud Quality Assessment: Dataset Construction and Learning-based No-Reference Metric", ACM Transactions on Multimedia Computing Communications and Applications, 2022."
