@@ -20,7 +20,7 @@ There are several kinds of algorithms included in this collection:
      
      https://youtu.be/2QyIP8Cf1HE
      
-     Previev:
+     Preview:
      
      ![AssassinsCreedOdysseySourcePreview](https://github.com/Jimmy-Hu/Megareus/blob/main/resources/gif/Assassin_Creed_Odyssey%202022-08-24%2018-38-46.gif)
      
