@@ -43,6 +43,9 @@ There are several kinds of algorithms included in this collection:
      
 - Object Detection
 
+- DCT(Discrete Cosine Transform) related experiments
+
+
 
 
 
