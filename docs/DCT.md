@@ -8,7 +8,7 @@ The one-dimensional discrete cosine transforms (1-D DCTs) is introduced in 1974 
 
 Though there are many ways to check the formulas of DCT, I've still listed the formula of 2D DCT / IDCT and 3D DCT / IDCT as follows.
 
-For an image block of size $$N \times N$$, its 2D DCT can be calculated:
+For an image block of size $N \times N$, its 2D DCT can be calculated:
 
 $$
 \begin{equation}
@@ -52,7 +52,7 @@ $$
 \end{equation}
 $$
 
-The formula above is the version with size $$N \times N$$ DCT. If the size is not square shaped, the formula of size $$N_{1} \times N_{2}$$ DCT is listed as follows:
+The formula above is the version with size $N \times N$ DCT. If the size is not square shaped, the formula of size $N_{1} \times N_{2}$ DCT is listed as follows:
 
 $$
 \begin{equation}
@@ -83,6 +83,18 @@ $$
 \end{equation}
 $$
 
+The formula of size $N_{1} \times N_{2}$ IDCT can be expressed as follows.
+
+$$
+\begin{equation}
+	\begin{split}
+		{x(n_{1}, n_{2})} = \sum_{{k_1 = 0}}^{N_1 - 1} \sum_{{k_2 = 0}}^{N_2 - 1} \epsilon_{k_{1}} \epsilon_{k_{2}} X(k_{1}, k_{2}) \\
+		\times \cos({\frac {\pi}{2N_{1}} (2n_{1} + 1)k_{1}}) \\
+		\times \cos({\frac {\pi}{2N_{2}} (2n_{2} + 1)k_{2}})
+	\end{split}
+	\label{2DIDCTMainFormula2}
+\end{equation}
+$$
 
 ### The Importance of DCT Coefficients
 
