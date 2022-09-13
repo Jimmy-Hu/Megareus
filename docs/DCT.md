@@ -4,6 +4,24 @@
 
 The one-dimensional discrete cosine transforms (1-D DCTs) is introduced in 1974 by Nasir Ahmed [1] [2] and it becomes one of the commonly used transforms in several research domains, including image texture analysis, image compression, etc, in recent decades. In the topic of image texture analysis, discrete cosine transformation (DCT) is commonly used in feature extraction for image processing. In Mohamed’s research [3], the feature extraction process is performed based on DCT frequency domain. Moreover, in [4], a block-based DCT feature extraction process, which is presented by K Manikantan, et al. is performed for face recognition. Not only on face recognition, feature extraction in DCT frequency domain is used on the various type image classification task. In [5], Donald M. Monro, et al. proposed a DCT based method for iris recognition. In the topic of image compression, a remarkable characteristic of DCT is that it performs very close to the statistically optimum [Karhunen–Loeve transform](https://en.wikipedia.org/wiki/Kosambi%E2%80%93Karhunen%E2%80%93Lo%C3%A8ve_theorem), which completely removes the statistical dependence between transformation coefficients and it brings lots of advantages for compression performance [2] [6] [7]. The coeffcients in DCT frequency domain indicate the different intensity of various type texture, such as horizontal texture, vertical texture and the other direction texture.
 
+### Formulas
+
+Though there are many ways to check the formulas of DCT, I've still listed the formula of 2D DCT / IDCT and 3D DCT / IDCT as follows.
+
+For an image block of size $$N \times N$$, its 2D DCT can be calculated:
+
+$$
+\begin{equation}
+	\begin{split}
+		{X(k_{1}, k_{2})} = {\frac {2}{N}} \epsilon_{k_{1}} \epsilon_{k_{2}} \sum_{{n_1 = 0}}^{N - 1} \sum_{{n_2 = 0}}^{N - 1} x(n_{1}, n_{2}) \\
+		\times \cos({\frac {\pi}{2N} (2n_{1} + 1)k_{1}}) \\
+		\times \cos({\frac {\pi}{2N} (2n_{2} + 1)k_{2}})
+	\end{split}
+	\label{eq:2DDCTMainFormula1}
+\end{equation}
+$$
+
+
 ### The Importance of DCT Coefficients
 
 
