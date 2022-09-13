@@ -112,6 +112,75 @@ The formulas of 3D discrete cosine transformation are listed as below.
 
 The 3D discrete cosine transformation $X(k_{1}, k_{2}, k_{3})$ of size $N_{1} \times N_{2} \times N_{3}$ is
 
+$$
+\begin{equation}
+	\begin{split}
+		{X(k_{1}, k_{2}, k_{3})} = {\frac {8}{N_{1} N_{2} N_{3}}} \epsilon_{k_{1}} \epsilon_{k_{2}} \epsilon_{k_{3}} \sum_{{n_1 = 0}}^{N_1 - 1} \sum_{{n_2 = 0}}^{N_2 - 1} \sum_{{n_3 = 0}}^{N_3 - 1} x(n_{1}, n_{2}, n_{3}) \\
+		\times \cos({\frac {\pi}{2N_{1}} (2n_{1} + 1)k_{1}}) \\
+		\times \cos({\frac {\pi}{2N_{2}} (2n_{2} + 1)k_{2}}) \\
+		\times \cos({\frac {\pi}{2N_{3}} (2n_{3} + 1)k_{3}})
+	\end{split}
+	\label{eq:3DDCTMainFormula}
+\end{equation}
+$$
+
+where
+
+$$
+%	Reference: https://tex.stackexchange.com/a/337352/208106
+\begin{equation}
+	\begin{split}
+		k_{1} = 0, 1, \dots, N_{1} - 1 \\ 
+		k_{2} = 0, 1, \dots, N_{2} - 1 \\ 
+		k_{3} = 0, 1, \dots, N_{3} - 1 \\
+		\epsilon_{k_{i}} = 
+		\begin{cases}
+			\frac{1}{\sqrt{2}} & \text{for $k_{i} = 0$} \\
+			1 & \text{otherwise}
+		\end{cases}
+		i = 1, 2, 3
+	\end{split}
+	\label{eq:3DDCTMainFormulaDetail}
+\end{equation}
+$$
+
+The 3D inverse discrete cosine transformation $x(n_{1}, n_{2}, n_{3})$ of size $N_{1} \times N_{2} \times N_{3}$ is
+
+$$
+\begin{equation}
+	\begin{split}
+		{x(n_{1}, n_{2}, n_{3})} = \sum_{{k_1 = 0}}^{N_1 - 1} \sum_{{k_2 = 0}}^{N_2 - 1} \sum_{{k_3 = 0}}^{N_3 - 1} \epsilon_{k_{1}} \epsilon_{k_{2}} \epsilon_{k_{3}} X(k_{1}, k_{2}, k_{3}) \\
+		\times \cos({\frac {\pi}{2N_{1}} (2n_{1} + 1)k_{1}}) \\
+		\times \cos({\frac {\pi}{2N_{2}} (2n_{2} + 1)k_{2}}) \\
+		\times \cos({\frac {\pi}{2N_{3}} (2n_{3} + 1)k_{3}})
+	\end{split}
+	\label{3DIDCTMainFormula}
+\end{equation}
+$$
+
+where
+
+$$
+%	Reference: https://tex.stackexchange.com/a/337352/208106
+\begin{equation}
+	\begin{split}
+		n_{1} = 0, 1, \dots, N_{1} - 1 \\ 
+		n_{2} = 0, 1, \dots, N_{2} - 1 \\ 
+		n_{3} = 0, 1, \dots, N_{3} - 1 \\
+		\epsilon_{k_{i}} = 
+		\begin{cases}
+			\frac{1}{\sqrt{2}} & \text{for $k_{i} = 0$} \\
+			1 & \text{otherwise}
+		\end{cases}
+		i = 1, 2, 3
+	\end{split}
+	\label{3DIDCTMainFormulaDetail}
+\end{equation}
+$$
+
+
+
+
 
 </p>
 </details>
