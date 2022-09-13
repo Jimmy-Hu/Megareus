@@ -1,8 +1,10 @@
-# DCT(Discrete Cosine Transform) Related Experiments
+# DCT (Discrete Cosine Transform) Related Experiments
 
 ### Introduction of Discrete Cosine Transformation
 
 The one-dimensional discrete cosine transforms (1-D DCTs) is introduced in 1974 by Nasir Ahmed [1] [2] and it becomes one of the commonly used transforms in several research domains, including image texture analysis, image compression, etc, in recent decades. In the topic of image texture analysis, discrete cosine transformation (DCT) is commonly used in feature extraction for image processing. In Mohamed’s research [3], the feature extraction process is performed based on DCT frequency domain. Moreover, in [4], a block-based DCT feature extraction process, which is presented by K Manikantan, et al. is performed for face recognition. Not only on face recognition, feature extraction in DCT frequency domain is used on the various type image classification task. In [5], Donald M. Monro, et al. proposed a DCT based method for iris recognition. In the topic of image compression, a remarkable characteristic of DCT is that it performs very close to the statistically optimum [Karhunen–Loeve transform](https://en.wikipedia.org/wiki/Kosambi%E2%80%93Karhunen%E2%80%93Lo%C3%A8ve_theorem), which completely removes the statistical dependence between transformation coefficients and it brings lots of advantages for compression performance [2] [6] [7]. The coeffcients in DCT frequency domain indicate the different intensity of various type texture, such as horizontal texture, vertical texture and the other direction texture.
+
+### The Importance of DCT Coefficients
 
 
 
