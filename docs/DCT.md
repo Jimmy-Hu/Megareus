@@ -8,6 +8,10 @@ The one-dimensional discrete cosine transforms (1-D DCTs) is introduced in 1974 
 
 Though there are many ways to check the formulas of DCT, I've still listed the formula of 2D DCT / IDCT and 3D DCT / IDCT as follows.
 
+<a name="2D_DCT_IDCT"></a>
+<details close><summary><b>2D DCT / IDCT</b></summary>
+<p>
+
 For an image block of size $N \times N$, its 2D DCT can be calculated:
 
 $$
@@ -95,6 +99,23 @@ $$
 	\label{2DIDCTMainFormula2}
 \end{equation}
 $$
+
+</p>
+</details>
+
+
+<a name="3D_DCT_IDCT"></a>
+<details close><summary><b>3D DCT / IDCT</b></summary>
+<p>
+
+The formulas of 3D discrete cosine transformation are listed as below.
+
+The 3D discrete cosine transformation $X(k_{1}, k_{2}, k_{3})$ of size $N_{1} \times N_{2} \times N_{3}$ is
+
+
+</p>
+</details>
+
 
 ### The Importance of DCT Coefficients
 
