@@ -21,6 +21,24 @@ $$
 \end{equation}
 $$
 
+where
+
+$$
+\begin{equation}
+	\begin{split}
+		k_{1} = 0, 1, \dots, N - 1 \\ 
+		k_{2} = 0, 1, \dots, N - 1 \\
+		\epsilon_{k_{i}} = 
+		\begin{cases}
+			\frac{1}{\sqrt{2}} & \text{for $k_{i} = 0$} \\
+			1 & \text{otherwise}
+		\end{cases}
+		i = 1, 2
+	\end{split}
+	\label{2DDCTMainFormulaDetail1}
+\end{equation}
+$$
+
 
 ### The Importance of DCT Coefficients
 
