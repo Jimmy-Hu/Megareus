@@ -39,6 +39,20 @@ $$
 \end{equation}
 $$
 
+Besides 2D DCT, the 2D IDCT can be expressed as follows:
+
+$$
+\begin{equation}
+	\begin{split}
+		{x(n_{1}, n_{2})} = \sum_{{k_1 = 0}}^{N - 1} \sum_{{k_2 = 0}}^{N - 1} \epsilon_{k_{1}} \epsilon_{k_{2}} X(k_{1}, k_{2}) \\
+		\times \cos({\frac {\pi}{2N} (2n_{1} + 1)k_{1}}) \\
+		\times \cos({\frac {\pi}{2N} (2n_{2} + 1)k_{2}})
+	\end{split}
+	\label{2DIDCTMainFormula1}
+\end{equation}
+$$
+
+
 
 ### The Importance of DCT Coefficients
 
