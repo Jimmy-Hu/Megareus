@@ -52,7 +52,18 @@ $$
 \end{equation}
 $$
 
+The formula above is the version with size $$N \times N$$ DCT. If the size is not square shaped, the formula of size $$N_{1} \times N_{2}$$ DCT is listed as follows:
 
+$$
+\begin{equation}
+	\begin{split}
+		{X(k_{1}, k_{2})} = {\frac {2}{ \sqrt{N_{1} N_{2}} }} \epsilon_{k_{1}} \epsilon_{k_{2}} \sum_{{n_1 = 0}}^{N_1 - 1} \sum_{{n_2 = 0}}^{N_2 - 1} x(n_{1}, n_{2}) \\
+		\times \cos({\frac {\pi}{2N_{1}} (2n_{1} + 1)k_{1}}) \\
+		\times \cos({\frac {\pi}{2N_{2}} (2n_{2} + 1)k_{2}})
+	\end{split}
+	\label{2DDCTMainFormula2}
+\end{equation}
+$$
 
 ### The Importance of DCT Coefficients
 
