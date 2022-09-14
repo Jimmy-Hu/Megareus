@@ -44,6 +44,8 @@ There are several kinds of algorithms included in this collection:
 - Object Detection
 
 - DCT(Discrete Cosine Transform) related experiments
+  
+  Please check the webpage ["DCT.md"](https://github.com/Jimmy-Hu/Megareus/blob/main/docs/DCT.md).
 
 
 
