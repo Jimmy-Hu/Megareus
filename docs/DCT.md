@@ -188,6 +188,9 @@ $$
 
 ### The Importance of DCT Coefficients
 
+#### The Experimental Results of Removing DCT Coefficients
+
+
 
 
 # References
