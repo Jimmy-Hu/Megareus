@@ -47,6 +47,8 @@ There are several kinds of algorithms included in this collection:
   
   Please check the webpage ["DCT.md"](https://github.com/Jimmy-Hu/Megareus/blob/main/docs/DCT.md).
 
+## Project Structure
+
 
 
 
