@@ -18,7 +18,7 @@ function out = DCT1D_gpuArray(x, dim)
         if dim == 1
             out = pagemtimes(alpha, 'transpose', x, 'none');
         elseif dim == 2
-            out = pagemtimes(alpha, 'none', X, 'transpose');
+            out = pagemtimes(alpha, 'none', x, 'transpose');
             out = pagetranspose(out);
         end
         return;
