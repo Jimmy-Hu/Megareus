@@ -14,7 +14,7 @@ function out = IDCT1D_gpuArray(X, dim)
             out = pagemtimes(alpha, X);
         elseif dim == 2
             out = pagemtimes(alpha, 'none', X, 'transpose');
-            out = pagetranspose(out);;
+            out = pagetranspose(out);
         end
         return;
     end
