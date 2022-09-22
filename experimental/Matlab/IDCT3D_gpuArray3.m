@@ -1,4 +1,7 @@
-function out = IDCT3D_gpuArray3(X) 
+function out = IDCT3D_gpuArray3(X)
+    if ~isgpuarray(X)
+        x = gpuArray(X);
+    end
     out = IDCT1D_gpuArray(X, 1); 
     out = IDCT1D_gpuArray(out, 2); 
     out = IDCT1D_gpuArray(out, 3);
