@@ -11,7 +11,7 @@ resultsCollection = zeros(testTimes, 1);
 L1differenceCollection = zeros(testTimes, 1);
 L2differenceCollection = zeros(testTimes, 1);
 
-N = 355;
+N = 356;
 N1 = N;
 N2 = N;
 N3 = N;
