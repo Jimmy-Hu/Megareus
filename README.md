@@ -13,32 +13,30 @@ There are more and more datasets and models released nowadays. From the aspects 
 
 There are several kinds of algorithms included in this collection:
 
-- Human Face Detection
+**Test Content: [Assassin's Creed Odyssey](https://en.wikipedia.org/wiki/Assassin's_Creed_Odyssey)**
   
-  1. Gaming Scenario
-     
-     **[Assassin's Creed Odyssey](https://en.wikipedia.org/wiki/Assassin's_Creed_Odyssey)**
-     
-     Source:
-     
-     https://youtu.be/2QyIP8Cf1HE
-     
-     Preview:
-     
-     ![AssassinsCreedOdysseySourcePreview](https://github.com/Jimmy-Hu/Megareus/blob/main/resources/gif/Assassin_Creed_Odyssey%202022-08-24%2018-38-46.gif)
-     
-     |             Name of Algorithm / Model                 |                        Results                  |
-     | :---------------------------------------------------: | :---------------------------------------------: |
-     | Face Detection and Tracking Using the KLT Algorithm   |                                                 |
-     | MTCNN Face Detection                                  | Full result: https://youtu.be/OjOfELSAvss ![AssassinsCreedOdysseySourcePreview](https://github.com/Jimmy-Hu/Megareus/blob/main/resources/gif/Assassin_Creed_Odyssey%202022-08-24%2018-38-46_MTCNN_FaceDetection_0.45_300Frame.gif)|
-     
-  2. [FDDB: Face Detection Data Set and Benchmark](http://vis-www.cs.umass.edu/fddb/)
+  Source:
   
-- No-Reference Image Quality Assessment (NR-IQA)
+  https://youtu.be/2QyIP8Cf1HE
   
-  1. Gaming Scenario
+  Preview:
+  
+  ![AssassinsCreedOdysseySourcePreview](https://github.com/Jimmy-Hu/Megareus/blob/main/resources/gif/Assassin_Creed_Odyssey%202022-08-24%2018-38-46.gif)
+  
+  - Human Face Detection
     
-     **[Assassin's Creed Odyssey](https://en.wikipedia.org/wiki/Assassin's_Creed_Odyssey)**
+    |             Name of Algorithm / Model                 |                        Results                  |
+    | :---------------------------------------------------: | :---------------------------------------------: |
+    | Face Detection and Tracking Using the KLT Algorithm   |                                                 |
+    | MTCNN Face Detection                                  | Full result: https://youtu.be/OjOfELSAvss ![AssassinsCreedOdysseySourcePreview](https://github.com/Jimmy-Hu/Megareus/blob/main/resources/gif/Assassin_Creed_Odyssey%202022-08-24%2018-38-46_MTCNN_FaceDetection_0.45_300Frame.gif)|
+    
+    2. [FDDB: Face Detection Data Set and Benchmark](http://vis-www.cs.umass.edu/fddb/)
+    
+  - No-Reference Image Quality Assessment (NR-IQA)
+    
+    |             Name of Algorithm / Model                 |                        Results                  |
+    | :---------------------------------------------------: | :---------------------------------------------: |
+    | NIQE, PIQE, BRISQUE                                   | Full result:  ![AssassinsCreedOdysseySourcePreview](https://github.com/Jimmy-Hu/Megareus/blob/main/resources/gif/Assassin_Creed_Odyssey%202022-08-24%2018-38-46_MTCNN_FaceDetection_NIQE_PIQE_BRISQUE.gif)|
 
      
 - Object Detection
