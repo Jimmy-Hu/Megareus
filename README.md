@@ -36,7 +36,7 @@ There are several kinds of algorithms included in this collection:
     
     |             Name of Algorithm / Model                 |                        Results                  |
     | :---------------------------------------------------: | :---------------------------------------------: |
-    | NIQE, PIQE, BRISQUE                                   | Full result:  ![AssassinsCreedOdysseySourcePreview](https://github.com/Jimmy-Hu/Megareus/blob/main/resources/gif/Assassin_Creed_Odyssey%202022-08-24%2018-38-46_MTCNN_FaceDetection_NIQE_PIQE_BRISQUE.gif)|
+    | NIQE, PIQE, BRISQUE                                   | Full result: https://youtu.be/ed07n1c49pQ ![AssassinsCreedOdysseySourcePreview](https://github.com/Jimmy-Hu/Megareus/blob/main/resources/gif/Assassin_Creed_Odyssey%202022-08-24%2018-38-46_MTCNN_FaceDetection_NIQE_PIQE_BRISQUE.gif)|
 
      
 - Object Detection
